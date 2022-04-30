@@ -15,7 +15,7 @@ layout: cover
 # Introduction to Web Development
 <small><i>for Absolute Beginners</i></small>
 
-###### ver 0.3.2
+###### ver 0.3.3
 ##### [slides link](https://metaory.github.io/web-intro-talk/)
 
 ---
@@ -80,7 +80,7 @@ CSS to specify the **layout** and **style** web pages
 
 <v-click>
 
-# Functionally (JavaScript)
+# Functionality (JavaScript)
 JavaScript to program the **behavior** of web pages
 
 </v-click>
