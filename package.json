@@ -1,6 +1,6 @@
 {
   "name": "metaory-bare",
-  "version": "0.3.1",
+  "version": "0.3.2",
   "main": "index.js",
   "license": "MIT",
   "scripts": {

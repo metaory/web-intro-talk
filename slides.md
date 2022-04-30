@@ -15,7 +15,7 @@ layout: cover
 # Introduction to Web Development
 <small><i>for Absolute Beginners</i></small>
 
-###### ver 0.3.1
+###### ver 0.3.2
 ##### [slides link](https://metaory.github.io/web-intro-talk/)
 
 ---
@@ -306,16 +306,16 @@ layout: center
 titleHeader: HTML Text Formatting
 ---
 
-- <code>\<b></code>      - Bold text
-- <code>\<strong></code> - Important text
-- <code>\<i></code>      - Italic text
-- <code>\<em></code>     - Emphasized text
-- <code>\<mark></code>   - Marked text
-- <code>\<small></code>  - Smaller text
-- <code>\<del></code>    - Deleted text
-- <code>\<ins></code>    - Inserted text
-- <code>\<sub></code>    - Subscript text
-- <code>\<sup></code>    - Superscript text
+- `<b>`      - Bold text
+- `<strong>` - Important text
+- `<i>`      - Italic text
+- `<em>`     - Emphasized text
+- `<mark>`   - Marked text
+- `<small>`  - Smaller text
+- `<del>`    - Deleted text
+- `<ins>`    - Inserted text
+- `<sub>`    - Subscript text
+- `<sup>`    - Superscript text
 
 ---
 
@@ -583,6 +583,23 @@ layout: two-cols
 
 
 - ## The `vertical-align` property sets the vertical alignment of an element.
+
+---
+layout: center
+titleHeader: CSS Properties
+---
+
+- `color`             - Sets the color of text
+- `background-color`  - Specifies the background color of an element
+- `background-image`  - Specifies one or more background images for an element
+- `border`            - A shorthand property for border-width, border-style and border-color
+- `box-shadow`        - Attaches one or more shadows to an element
+- `display`           - Specifies how a certain HTML element should be displayed
+- `font-weight`       - Specifies the weight of a font
+- `margin`            - Sets all the margin properties in one declaration
+- `padding`           - A shorthand property for all the padding-* properties
+- `opacity`           - Sets the opacity level for an element
+- `text-align`        - Specifies the horizontal alignment of text
 
 ---
 
