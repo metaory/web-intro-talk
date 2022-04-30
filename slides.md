@@ -13,8 +13,9 @@ layout: cover
 ---
 
 # Introduction to Web Development
+<small><i> for Absolute beginners </i></small>
 
-###### ver 0.3.0
+###### ver 0.3.1
 ##### [slides link](https://metaory.github.io/web-intro-talk/)
 
 ---

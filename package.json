@@ -1,10 +1,10 @@
 {
   "name": "metaory-bare",
-  "version": "0.3.0",
+  "version": "0.3.1",
   "main": "index.js",
   "license": "MIT",
   "scripts": {
-    "deploy": "slidev build --base /web-intro-talk/ -o docs && git add . && git commit -am 'update'"
+    "deploy": "slidev build --base /web-intro-talk/ -o docs && git add . && git commit -am 'update' && git push"
   },
   "dependencies": {
     "@slidev/cli": "^0.30.3",
