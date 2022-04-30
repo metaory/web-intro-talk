@@ -3,7 +3,6 @@
 @import 'prism-theme-vars/to-codemirror.css';
 /* @import "prism-theme-vars/themes/vitesse-light.css"; */
 
-
 :root {
   --prism-font-family: var(--slidev-code-font-family);
   --slidev-code-background: rgba(125, 125, 125, 0.03);

@@ -12,9 +12,9 @@ themeConfig:
 layout: cover
 ---
 
-# Web Development Introduction
+# Introduction to Web Development
 
-###### ver 0.2.9
+###### ver 0.2.10
 ##### [slides link](https://metaory.github.io/web-intro-talk/)
 
 ---
