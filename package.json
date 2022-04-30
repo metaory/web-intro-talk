@@ -1,0 +1,18 @@
+{
+  "name": "metaory-bare",
+  "version": "1.0.0",
+  "main": "index.js",
+  "license": "MIT",
+  "dependencies": {
+    "@slidev/cli": "^0.30.3",
+    "@slidev/theme-default": "*",
+    "@slidev/theme-seriph": "*",
+    "slidev-theme-academic": "^1.0.0",
+    "slidev-theme-codeg": "^0.1.1",
+    "slidev-theme-nearform": "^1.4.2",
+    "slidev-theme-penguin": "^1.3.4"
+  },
+  "devDependencies": {
+    "playwright-chromium": "^1.21.1"
+  }
+}
