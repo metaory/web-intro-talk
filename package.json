@@ -4,7 +4,8 @@
   "main": "index.js",
   "license": "MIT",
   "scripts": {
-    "deploy": "slidev build --base /web-intro-talk/ -o docs && git add . && git commit -am 'update' && git push"
+    "start": "slidev",
+    "deploy": "slidev build --base /web-intro-talk/ -o docs && git add .; git commit -am 'update'; git push"
   },
   "dependencies": {
     "@slidev/cli": "^0.30.3",
