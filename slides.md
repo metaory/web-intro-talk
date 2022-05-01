@@ -310,6 +310,7 @@ titleHeader: HTML Text Formatting
 - `<ins>`    - Inserted text
 - `<sub>`    - Subscript text
 - `<sup>`    - Superscript text
+- `...`
 
 ---
 
@@ -536,6 +537,7 @@ layout: two-cols
 - `px` pixels (1px = 1/96th of 1in)
 - `pt` points (1pt = 1/72 of 1in)
 - `pc` picas (1pc = 12 pt)
+- `...`
 
 ::right::
 # Relative Lengths
@@ -544,6 +546,7 @@ layout: two-cols
 - `vw` Relative to 1% of the width of the viewport
 - `vh` Relative to 1% of the height of the viewport
 - `%` Relative to the parent element
+- `...`
 
 ---
 
@@ -594,6 +597,7 @@ titleHeader: CSS Properties
 - `padding`           - A shorthand property for all the padding-* properties
 - `opacity`           - Sets the opacity level for an element
 - `text-align`        - Specifies the horizontal alignment of text
+- `...`
 
 ---
 
