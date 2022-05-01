@@ -15,7 +15,7 @@ layout: cover
 # Introduction to Web Development
 <small><i>for Absolute Beginners</i></small>
 
-###### ver 0.3.3
+###### ver 0.3.4
 ##### [slides link](https://metaory.github.io/web-intro-talk/)
 
 ---
@@ -105,11 +105,11 @@ overlayClass: bg-[rgba(255,255,255,0.1)]
 
 ---
 
-# The main parts of HTML element are as follows:
+# HTML element parts
 
-- **The opening tag**: This consists of the name of the element (in this case, p), wrapped in opening and closing angle brackets. This states where the element begins or starts to take effect — in this case where the paragraph begins.
-- **The closing tag**: This is the same as the opening tag, except that it includes a forward slash before the element name. This states where the element ends — in this case where the paragraph ends. Failing to add a closing tag is one of the standard beginner errors and can lead to strange results.
-- **The content**: This is the content of the element, which in this case, is just text.
+- **The opening tag**: This consists of the name of the element, wrapped in opening and closing angle brackets. This states where the element begins or starts to take effect.
+- **The closing tag**: This is the same as the opening tag, except that it includes a forward slash before the element name. This states where the element ends.
+- **The content**: This is the content of the element.
 - **The element**: The opening tag, the closing tag, and the content together comprise the element.
 
 
@@ -605,7 +605,13 @@ titleHeader: CSS Properties
 # CSS Selectors
 ## A CSS selector selects the HTML element(s) you want to style.
 
+<v-click>
+
 ### CSS selectors are used to **"find"** (or select) the HTML elements you want to style.
+
+</v-click>
+
+<v-click>
 
 #### We can divide CSS selectors into five categories:
 
@@ -614,6 +620,8 @@ titleHeader: CSS Properties
 - Pseudo-class selectors (select elements based on a certain state)
 - Pseudo-elements selectors (select and style a part of an element)
 - Attribute selectors (select elements based on an attribute or attribute value)
+
+</v-click>
 
 ---
 
@@ -679,7 +687,7 @@ p {
 
 # Selecting multiple elements
 
-## You can also select multiple elements and apply a single ruleset to all of them. Separate multiple selectors by commas. For example:
+### You can also select multiple elements and apply a single ruleset to all of them. Separate multiple selectors by commas.
 
 ```css
 p, li, h1 {
