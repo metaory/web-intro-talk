@@ -485,7 +485,7 @@ p    {color: red;}
 
 # CSS Colors
 
-#### Colors are specified using predefined `color names`, or `RGB,` `HEX`, `HSL` values.
+#### Colors are specified using predefined `color names`, or `RGB`, `HEX`, `HSL` values.
 
 #### These values represent the same color in different formats:
 ```css
@@ -496,17 +496,17 @@ h3 {color: hsl(0, 100%, 50%);}
 
 ---
 
-# CSS Background Color
+# Background Color
 ```html
 <p style="background-color:Tomato;">Lorem ipsum...</p>
 ```
 
-# CSS Text Color
+# Text Color
 ```html
 <h1 style="color:Tomato;">Hello World</h1>
 ```
 
-# CSS Border Color
+# Border Color
 ```html
 <h1 style="border:2px solid Tomato;">Hello World</h1>
 ```
