@@ -38,19 +38,13 @@ test
 ---
 
 # Tooling
-- A **text editor**, to write code in. This could be a text editor (e.g. [Visual Studio Code](https://code.visualstudio.com/), [Notepad++](https://notepad-plus-plus.org/), [Sublime Text](https://www.sublimetext.com/), [Atom](https://atom.io/), [GNU Emacs](https://www.gnu.org/software/emacs/), or [VIM](https://www.vim.org/)), or a hybrid editor (e.g. WebStorm). Office document editors are not suitable for this use, as they rely on hidden elements that interfere with the rendering engines used by web browsers.
+- A **text editor**, to write code in. This could be a text editor (e.g. [Visual Studio Code](https://code.visualstudio.com/), [Notepad++](https://notepad-plus-plus.org/), [Sublime Text](https://www.sublimetext.com/), [Atom](https://atom.io/), [GNU Emacs](https://www.gnu.org/software/emacs/), or [VIM](https://www.vim.org/)), or a hybrid editor (e.g. [WebStorm](https://www.jetbrains.com/webstorm/)). Office document editors are not suitable for this use, as they rely on hidden elements that interfere with the rendering engines used by web browsers.
 
 - **Web browsers**, to test code in. Currently, the most-used browsers are [Firefox](https://www.mozilla.org/en-US/firefox/new/), [Chrome](https://www.google.com/chrome/browser/), [Opera](https://www.opera.com/), [Safari](https://www.apple.com/safari/), [Internet Explorer](https://support.microsoft.com/en-us/windows/internet-explorer-downloads-d49e1f0d-571c-9a7b-d97e-be248806ca70) and [Microsoft Edge](https://www.microsoft.com/edge). You should also test how your site performs on mobile devices and on any old browsers your target audience may still be using (such as IE 8–10). [Lynx](https://lynx.browser.org/), a text-based terminal web browser, is great for seeing how your site is experienced by visually-impaired users.
 
 <!--
 Atom
 -->
-
----
-
-# File Encodings
-## Binary
-## UTF-8
 
 ---
 layout: image
