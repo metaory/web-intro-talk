@@ -213,6 +213,8 @@ consectetur adipiscing elit
 # HTML Image Tag
 
 ## The `<img>` tag is used to embed an image in an HTML page.
+
+
 ### The src `attribute` specifies the path to the image to be displayed
 
 ```html
@@ -291,9 +293,9 @@ overlayClass: bg-[rgba(0,0,0,0.0)]
 
 # HTML Text Formatting
 
-### <p><b>This text is bold</b></p>
-### <p><i>This text is italic</i></p>
-### <p>This is<sub> subscript</sub> and <sup>superscript</sup></p>
+## <p><b>This text is bold</b></p>
+## <p><i>This text is italic</i></p>
+## <p>This is<sub> subscript</sub> and <sup>superscript</sup></p>
 
 ---
 layout: center
@@ -536,7 +538,6 @@ layout: two-cols
 - `in` inches (1in = 96px = 2.54cm)
 - `px` pixels (1px = 1/96th of 1in)
 - `pt` points (1pt = 1/72 of 1in)
-- `pc` picas (1pc = 12 pt)
 - `...`
 
 ::right::
