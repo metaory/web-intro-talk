@@ -29,7 +29,7 @@ layout: cover
 ### JS, Lua, Shell, Vim, Linux lover
 ## Developer Advocate
 
-###### **Solution Architect** at **HelloGold**
+###### Solution Architect at HelloGold
 
 <!--
 test
