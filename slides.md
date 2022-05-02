@@ -772,10 +772,16 @@ layout: quote
 
 # Variable Types
 
+<v-click>
+
 ## - global
 ```javascript
 myVariable = 'Steve';
 ```
+
+</v-click>
+
+<v-click>
 
 ## - let/var
 ```javascript
@@ -784,10 +790,16 @@ myVariable = 'new name';
 var name = 'John';
 ```
 
+</v-click>
+
+<v-click>
+
 ## - const
 ```javascript
 const myVariable = 'Steve';
 ```
+
+</v-click>
 
 ---
 layout: two-cols
