@@ -532,7 +532,7 @@ p {
 titleHeader: CSS Units
 layout: two-cols
 ---
-# Absolute Lengths
+# Absolute 
 - `cm` centimeters
 - `mm` millimeters
 - `in` inches (1in = 96px = 2.54cm)
@@ -541,7 +541,7 @@ layout: two-cols
 - `...`
 
 ::right::
-# Relative Lengths
+# Relative
 - `em` Relative to the font-size of the element
 - `rem` Relative to font-size of the root element
 - `vw` Relative to 1% of the width of the viewport
