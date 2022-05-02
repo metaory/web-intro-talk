@@ -15,7 +15,7 @@ layout: cover
 # Introduction to Web Development
 <small><i>for Absolute Beginners</i></small>
 
-###### ver 0.3.4
+###### ver 0.3.5
 ##### [slides link](https://metaory.github.io/web-intro-talk/)
 
 ---
@@ -159,7 +159,7 @@ overlayClass: bg-[rgba(255,255,255,0.1)]
 # `<p>` and `<pre>`
 
 ## `<p>`
-<p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum</p>
+<p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur.</p>
 
 ## `<pre>`
 <pre>
@@ -562,6 +562,13 @@ layout: two-cols
 - `padding-left`
 
 ---
+layout: image
+titleHeader: CSS Padding
+image: /padding.webp
+overlayClass: bg-[rgba(0,0,0,0.0)]
+---
+
+---
 
 # CSS Margin
 ## Margins are used to create space around elements, outside of any defined borders.
@@ -571,6 +578,13 @@ layout: two-cols
 - `margin-right`
 - `margin-bottom`
 - `margin-left`
+
+---
+layout: image
+titleHeader: CSS Margin
+image: /margin.webp
+overlayClass: bg-[rgba(0,0,0,0.0)]
+---
 
 ---
 
@@ -613,7 +627,7 @@ titleHeader: CSS Properties
 
 <v-click>
 
-#### We can divide CSS selectors into five categories:
+#### CSS selectors five categories:
 
 - Simple selectors (select elements based on name, id, class)
 - Combinator selectors (select elements based on a specific relationship between them)
@@ -624,6 +638,17 @@ titleHeader: CSS Properties
 </v-click>
 
 ---
+
+# CSS Simple Selectors
+
+| Selector name    | What does it select                                  | Example&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;                                    |
+| ---              | ---                                                  | ---                                        |
+| Element selector | All HTML elements of the specified type.             | `p` selects `<p>`                            |
+| ID selector      | The element on the page with the specified ID.       | `#my-id` selects `<p id="my-id">`          |
+| Class selector   | The element(s) on the page with the specified class. | `.my-class` selects `<p class="my-class">` |
+
+---
+
 
 # The CSS element Selector
 ## The element selector selects HTML elements based on the element name.
@@ -694,16 +719,6 @@ p, li, h1 {
   color: red;
 }
 ```
-
----
-
-# Different types of Selectors
-
-| Selector name    | What does it select                                  | Example&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;                                    |
-| ---              | ---                                                  | ---                                        |
-| Element selector | All HTML elements of the specified type.             | `p` selects `<p>`                            |
-| ID selector      | The element on the page with the specified ID.       | `#my-id` selects `<p id="my-id">`          |
-| Class selector   | The element(s) on the page with the specified class. | `.my-class` selects `<p class="my-class">` |
 
 ---
 
@@ -794,13 +809,14 @@ let myVariable = true;
 ```
 
 ::right::
-## Array
-```javascript
-let myVariable = [1,'Bob','Steve',10];
-```
+# &nbsp;
 ## Object
 ```javascript
 let myVariable = { name: 'John' }
+```
+## Array
+```javascript
+let myVariable = [1,'Bob','Steve',10];
 ```
 
 ---
@@ -823,12 +839,12 @@ console.log('fullname:', fullName)
 
 </v-click>
 
-```javascript {none|1|3-4|all}
-document.getElementById("demo").innerHTML = fullName
+<v-click>
 
-const myHeading = document.querySelector('h1');
-myHeading.textContent = 'Hello world!';
+```javascript {none|all}
+document.getElementById("demo").innerHTML = fullName
 ```
+</v-click>
 
 ---
 

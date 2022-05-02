@@ -33,7 +33,7 @@ const props = defineProps({
 <template>
   <div class="slidev-layout two-columns w-full h-full grid grid-cols-2 gap-4">
     <layout-header :titleHeader="props.titleHeader" />
-    <div class="col-left" :class="props.class">
+    <div class="col-left" >
       <slot />
     </div>
     <div class="col-right" :class="props.class">

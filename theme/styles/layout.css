@@ -36,7 +36,8 @@
 }
 
 .slidev-layout.cover,
-.slidev-layout.intro {
+.slidev-layout.intro,
+.slidev-layout.two-columns {
   @apply h-full grid;
 
   h1 {
