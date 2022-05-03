@@ -13,9 +13,9 @@ layout: cover
 ---
 
 # Introduction to Web Development
-<small><i>for Absolute Beginners</i></small>
+<i>for Absolute Beginners</i>
 
-###### ver 0.3.5
+###### ver 0.3.6
 ##### [slides link](https://metaory.github.io/web-intro-talk/)
 
 ---
@@ -23,7 +23,9 @@ layout: cover
 ---
 
 ###### my name is
-# Yan
+
+<h1 style="color: #5b21b6">Yan</h1>
+
 # [github.com/metaory](https://github.com/metaory/)
 
 ### JS, Lua, Shell, Vim, Linux lover
@@ -63,24 +65,28 @@ overlayClass: bg-[rgba(0,0,0,0.0)]
 ---
 
 # Structure (HTML)
-HTML to define the **content** of web pages
+### HTML to define the **content** of web pages
 
 <v-click>
 
 # Style (CSS)
-CSS to specify the **layout** and **style** web pages
+### CSS to specify the **layout** and **style** web pages
 
 </v-click>
 
 <v-click>
 
 # Functionality (JavaScript)
-JavaScript to program the **behavior** of web pages
+### JavaScript to program the **behavior** of web pages
 
 </v-click>
 
 ---
-layout: cover
+layout: section
+---
+
+# HTML
+
 ---
 
 # HTML
@@ -142,6 +148,17 @@ overlayClass: bg-[rgba(255,255,255,0.1)]
 - The `<h1>` element defines a large heading
 - The `<p>` element defines a paragraph
 
+---
+
+# HTML Semantic Elements
+
+## Semantic elements = elements with a meaning.
+
+### A **semantic** element clearly describes its meaning to both the browser and the developer.
+
+### Examples of non-semantic elements: `<div>` and `<span>` - **Tells nothing about its content.**
+
+### Examples of semantic elements: `<form>`, `<table>`, and `<article>` - **Clearly defines its content.**
 
 ---
 
@@ -193,12 +210,6 @@ consectetur adipiscing elit
 
 ---
 
-# HTML Links
-
-## Links allow users to click their way from page to page.
-
----
-
 # HTML Attributes
 
 ## HTML attributes provide additional information about HTML elements.
@@ -230,17 +241,9 @@ overlayClass: bg-[rgba(0,0,0,0.0)]
 
 ---
 
-# HTML Class Attribute
-## The HTML `class` attribute is used to specify a class for an HTML element.
-### Multiple HTML elements can share the same class.
+# HTML Links
 
----
-
-# HTML id Attribute
-
-## The HTML `id` attribute is used to specify a unique id for an HTML element.
-
-### You **cannot** have more than one element with the same **id** in an HTML document.
+## Links allow users to click their way from page to page.
 
 ---
 
@@ -248,7 +251,7 @@ overlayClass: bg-[rgba(0,0,0,0.0)]
 
 ## The `<a>` tag defines a hyperlink.
 
-##  The href attribute specifies the URL of the page the link goes to
+###  The href attribute specifies the URL of the page the link goes to
 
 ```html
 <a href="https://www.w3schools.com">Visit W3Schools</a>
@@ -316,18 +319,24 @@ titleHeader: HTML Text Formatting
 
 ---
 
-# HTML Semantic Elements
-
-## Semantic elements = elements with a meaning.
-
-### A **semantic** element clearly describes its meaning to both the browser and the developer.
-
-### Examples of non-semantic elements: `<div>` and `<span>` - **Tells nothing about its content.**
-
-### Examples of semantic elements: `<form>`, `<table>`, and `<article>` - **Clearly defines its content.**
+# HTML Class Attribute
+## The HTML `class` attribute is used to specify a class for an HTML element.
+### Multiple HTML elements can share the same class.
 
 ---
-layout: cover
+
+# HTML id Attribute
+
+## The HTML `id` attribute is used to specify a unique id for an HTML element.
+
+### You **cannot** have more than one element with the same **id** in an HTML document.
+
+---
+layout: section
+---
+
+# CSS
+
 ---
 
 # CSS

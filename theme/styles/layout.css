@@ -34,6 +34,9 @@
     }
   }
 }
+.slidev-layout.cover h1 {
+  color: red;
+}
 
 .slidev-layout.cover,
 .slidev-layout.intro,
