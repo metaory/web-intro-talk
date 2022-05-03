@@ -296,9 +296,9 @@ overlayClass: bg-[rgba(0,0,0,0.0)]
 
 # HTML Text Formatting
 
-## <p><b>This text is bold</b></p>
-## <p><i>This text is italic</i></p>
-## <p>This is<sub> subscript</sub> and <sup>superscript</sup></p>
+### <p><b>This text is bold</b></p>
+### <p><i>This text is italic</i></p>
+### <p>This is<sub> subscript</sub> and <sup>superscript</sup></p>
 
 ---
 layout: center
