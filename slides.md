@@ -24,8 +24,7 @@ layout: cover
 
 ###### my name is
 
-<h1 style="color: #5b21b6">Yan</h1>
-
+# Yan
 # [github.com/metaory](https://github.com/metaory/)
 
 ### JS, Lua, Shell, Vim, Linux lover
