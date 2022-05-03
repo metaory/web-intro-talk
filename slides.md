@@ -15,7 +15,7 @@ layout: cover
 # Introduction to Web Development
 <i>for Absolute Beginners</i>
 
-###### ver 0.3.6
+###### ver 0.3.7
 ##### [slides link](https://metaory.github.io/web-intro-talk/)
 
 ---
@@ -161,6 +161,14 @@ overlayClass: bg-[rgba(255,255,255,0.1)]
 
 ---
 
+# HTML Block-level Elements
+
+## A block-level element always starts on a new line, and the browsers automatically add some space (a margin) before and after the element.
+
+### Two commonly used block elements are: `<p>` and `<div>`.
+
+---
+
 # HTML Headings
 
 ## `<h1>` Heading 1 `</h1>`
@@ -201,11 +209,56 @@ consectetur adipiscing elit
 
 ---
 
-# HTML Block-level Elements
+# HTML Text Formatting
 
-## A block-level element always starts on a new line, and the browsers automatically add some space (a margin) before and after the element.
+### <p><b>This text is bold</b></p>
+### <p><i>This text is italic</i></p>
+### <p>This is<sub> subscript</sub> and <sup>superscript</sup></p>
 
-### Two commonly used block elements are: `<p>` and `<div>`.
+---
+layout: center
+titleHeader: HTML Text Formatting
+---
+
+- `<b>`      - Bold text
+- `<strong>` - Important text
+- `<i>`      - Italic text
+- `<em>`     - Emphasized text
+- `<mark>`   - Marked text
+- `<small>`  - Smaller text
+- `<del>`    - Deleted text
+- `<ins>`    - Inserted text
+- `<sub>`    - Subscript text
+- `<sup>`    - Superscript text
+- `...`
+
+---
+
+# Nested HTML Elements
+
+## HTML elements can be nested.
+
+### All HTML documents consist of nested HTML elements.
+
+#### The following example contains four HTML elements (`<html>`, `<body>`, `<h1>` and `<p>`):
+
+```html
+<!DOCTYPE html>
+<html>
+  <body>
+    <h1>My First Heading</h1>
+    <p>My first paragraph.</p>
+  </body>
+</html>
+```
+
+---
+
+# Case Sensitivity
+
+## HTML is Not Case Sensitive
+
+### HTML tags are not case sensitive: `<P>` means the same as `<p>`.
 
 ---
 
@@ -262,59 +315,6 @@ image: /html-link-tag.png
 titleHeader: HTML Link Attributes
 overlayClass: bg-[rgba(0,0,0,0.0)]
 ---
-
----
-
-# Nested HTML Elements
-
-## HTML elements can be nested.
-
-### All HTML documents consist of nested HTML elements.
-
-#### The following example contains four HTML elements (`<html>`, `<body>`, `<h1>` and `<p>`):
-
-```html
-<!DOCTYPE html>
-<html>
-  <body>
-    <h1>My First Heading</h1>
-    <p>My first paragraph.</p>
-  </body>
-</html>
-```
-
----
-
-# Case Sensitivity
-
-## HTML is Not Case Sensitive
-
-### HTML tags are not case sensitive: `<P>` means the same as `<p>`.
-
----
-
-# HTML Text Formatting
-
-### <p><b>This text is bold</b></p>
-### <p><i>This text is italic</i></p>
-### <p>This is<sub> subscript</sub> and <sup>superscript</sup></p>
-
----
-layout: center
-titleHeader: HTML Text Formatting
----
-
-- `<b>`      - Bold text
-- `<strong>` - Important text
-- `<i>`      - Italic text
-- `<em>`     - Emphasized text
-- `<mark>`   - Marked text
-- `<small>`  - Smaller text
-- `<del>`    - Deleted text
-- `<ins>`    - Inserted text
-- `<sub>`    - Subscript text
-- `<sup>`    - Superscript text
-- `...`
 
 ---
 
