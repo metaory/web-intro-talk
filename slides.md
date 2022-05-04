@@ -22,9 +22,11 @@ layout: cover
 layout: cover
 ---
 
-###### my name is
+<img width="128" style="position: absolute; top: 20px; right: 20px;" src="/logo.png">
 
+###### my name is
 # Yan
+
 # [github.com/metaory](https://github.com/metaory/)
 
 ### JS, Lua, Shell, Vim, Linux lover
