@@ -15,7 +15,7 @@ layout: cover
 # Introduction to Web Development
 <i>for Absolute Beginners</i>
 
-###### ver 0.3.7
+###### ver 0.3.8
 ##### [slides link](https://metaory.github.io/web-intro-talk/)
 
 ---
@@ -153,13 +153,21 @@ overlayClass: bg-[rgba(255,255,255,0.1)]
 
 # HTML Semantic Elements
 
+<v-click>
+
 ## Semantic elements = elements with a meaning.
+
+</v-click>
+
+<v-click>
 
 ### A **semantic** element clearly describes its meaning to both the browser and the developer.
 
 ### Examples of non-semantic elements: `<div>` and `<span>` - **Tells nothing about its content.**
 
 ### Examples of semantic elements: `<form>`, `<table>`, and `<article>` - **Clearly defines its content.**
+
+</v-click>
 
 ---
 
@@ -322,7 +330,12 @@ overlayClass: bg-[rgba(0,0,0,0.0)]
 
 # HTML Class Attribute
 ## The HTML `class` attribute is used to specify a class for an HTML element.
+
+<v-click>
+
 ### Multiple HTML elements can share the same class.
+
+</v-click>
 
 ---
 
@@ -330,7 +343,11 @@ overlayClass: bg-[rgba(0,0,0,0.0)]
 
 ## The HTML `id` attribute is used to specify a unique id for an HTML element.
 
+<v-click>
+
 ### You **cannot** have more than one element with the same **id** in an HTML document.
+
+</v-click>
 
 ---
 layout: section
