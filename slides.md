@@ -15,7 +15,7 @@ layout: cover
 # Introduction to Web Development
 <i>for Absolute Beginners</i>
 
-###### ver 0.3.8
+###### ver 0.3.9
 ##### [slides link](https://metaory.github.io/web-intro-talk/)
 
 ---
@@ -125,7 +125,6 @@ overlayClass: bg-[rgba(255,255,255,0.1)]
 - **The content**: This is the content of the element.
 - **The element**: The opening tag, the closing tag, and the content together comprise the element.
 
-
 ---
 
 # A Simple HTML Document
@@ -191,6 +190,7 @@ overlayClass: bg-[rgba(255,255,255,0.1)]
 ### `<h2>` Heading 2 `</h2>`
 #### `<h3>` Heading 3 `</h3>`
 ##### `<h4>` Heading 4 `</h4>`
+`...`
 
 ---
 
@@ -227,9 +227,9 @@ consectetur adipiscing elit
 
 # HTML Text Formatting
 
-### <p><b>This text is bold</b></p>
-### <p><i>This text is italic</i></p>
-### <p>This is<sub> subscript</sub> and <sup>superscript</sup></p>
+### `<b>` <p><b>This text is bold</b></p>
+### `<i>` <p><i>This text is italic</i></p>
+### `<sub>` `<sup>` <p>This is<sub> subscript</sub> and <sup>superscript</sup></p>
 
 ---
 layout: center
