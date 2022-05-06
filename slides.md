@@ -5,6 +5,7 @@ download: true
 defaults:
   layout: 'intro'
 colorSchema: 'auto'
+favicon: 'favicon.ico'
 themeConfig:
   primary: '#4f46e5'
   secondary: '#5b21b6'
